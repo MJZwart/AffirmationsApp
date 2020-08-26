@@ -1,0 +1,8 @@
+/*
+ * Created by MJ Zwart on 8/26/20 6:58 PM.
+ * Copyright (c) 2020. All rights reserved
+ * Last modified 5/20/20 6:45 PM
+ */
+
+rootProject.name='AffirmationsApp'
+include ':app'

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Created by MJ Zwart on 8/26/20 6:58 PM.
+  ~ Copyright (c) 2020. All rights reserved
+  ~ Last modified 8/7/20 10:51 AM
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menu_settings"
+        android:title="@string/menu_settings"
+        app:showAsAction="never">
+    </item>
+</menu>

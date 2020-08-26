@@ -1,0 +1,71 @@
+<!--
+  ~ Created by MJ Zwart on 8/26/20 6:58 PM.
+  ~ Copyright (c) 2020. All rights reserved
+  ~ Last modified 8/22/20 1:35 PM
+  -->
+
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <PreferenceCategory app:title="Personal">
+
+        <EditTextPreference
+            app:key="username"
+            app:title="@string/username"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Notification settings">
+
+        <SwitchPreferenceCompat
+            app:key="notifs_on"
+            android:title="Notifications on"
+            android:defaultValue="true"/>
+        <DropDownPreference
+            android:key="notification_time"
+            android:title="Notification time"
+            android:summary="At what time do you want your affirmation?"
+            app:useSimpleSummaryProvider="true"
+            android:entryValues="@array/notif_times_values"
+            android:entries="@array/notif_times_entries"
+            android:defaultValue="@string/default_notification_time"/>
+
+<!--        <CheckBoxPreference-->
+<!--            app:key="interval"-->
+<!--            android:title="Interval"-->
+<!--            android:dependency="notifs_on" />-->
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Which types of affirmations would you like to receive?">
+
+
+        <SwitchPreferenceCompat
+            app:key="aff_type_looks"
+            android:title="Looks"
+            android:defaultValue="true"/>
+        <SwitchPreferenceCompat
+            app:key="aff_type_social"
+            android:title="Social"
+            android:defaultValue="true"/>
+        <SwitchPreferenceCompat
+            app:key="aff_type_mental_health"
+            android:title="Mental health"
+            android:defaultValue="true"/>
+        <SwitchPreferenceCompat
+            app:key="aff_type_productivity"
+            android:title="Productivity"
+            android:defaultValue="true"/>
+        <SwitchPreferenceCompat
+            app:key="aff_type_self_worth"
+            android:title="Self worth"
+            android:defaultValue="true"/>
+        <!--         <MultiSelectListPreference
+                    app:dependency="notifs_on"
+                    app:key="aff_types"
+                    android:entryValues="@array/affirmation_types_values"
+                    android:entries="@array/affirmation_types_entries"
+                    android:title="Affirmation types" />
+                   android:defaultValue="@array/affirmation_types_values"-->
+    </PreferenceCategory>
+
+</PreferenceScreen>

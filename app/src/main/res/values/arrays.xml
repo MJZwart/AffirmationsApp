@@ -1,0 +1,287 @@
+<!--
+  ~ Created by MJ Zwart on 8/26/20 6:58 PM.
+  ~ Copyright (c) 2020. All rights reserved
+  ~ Last modified 8/26/20 2:09 PM
+  -->
+
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="reply_entries">
+        <item>Reply</item>
+        <item>Reply to all</item>
+    </string-array>
+
+    <string-array name="reply_values">
+        <item>reply</item>
+        <item>reply_all</item>
+    </string-array>
+    <string-array name="affirmation_types_values">
+        <item>LOOKS</item>
+        <item>PRODUCTIVITY</item>
+        <item>SELFWORTH</item>
+        <item>SOCIAL</item>
+        <item>MENTALHEALTH</item>
+    </string-array>
+    <string-array name="affirmation_types_entries">
+        <item>Looks</item>
+        <item>Productivity</item>
+        <item>Self worth</item>
+        <item>Social</item>
+        <item>Mental health</item>
+    </string-array>
+
+    <string-array name="global_affirmations">
+        <item>I believe in my skills and abilities.</item>
+        <item>My strength is greater than any struggle.</item>
+        <item>I can do this.</item>
+        <item>I\'m getting stronger every day.</item>
+        <item>I am in awe of what I am capable of.</item>
+        <item>I was not made to give up.</item>
+        <item>I know my worth.</item>
+        <item>I choose what I become.</item>
+        <item>Happiness is within my grasp.</item>
+        <item>Even outside my comfort zone, I will be comfortable in my own skin.</item>
+        <item>I am worthy of love and joy.</item>
+        <item>I do not need other people for happiness.</item>
+        <item>I choose hope over fear.</item>
+        <item>Positivity is a choice that I choose to make.</item>
+        <item>I believe in myself.</item>
+        <item>I am not my mistakes.</item>
+        <item>I deserve love, compassion and empathy.</item>
+        <item>I choose faith over fear.</item>
+        <item>I deserve rest and relaxation.</item>
+        <item>I am grateful for the things I have.</item>
+        <item>I will search for the good that comes, even in bad situations.</item>
+        <item>I can rely on myself.</item>
+    </string-array>
+    <string-array name="looks_affirmations">
+        <item>I am a beautiful person.</item>
+        <item>I choose to notice the beautiful parts of myself.</item>
+        <item>I choose to see beauty in my reflection.</item>
+        <item>This is my body and I love it.</item>
+        <item>I am not an object, my body deserves respect.</item>
+        <item>People notice my beauty because I notice my beauty.</item>
+        <item>My body is an incredible healer.</item>
+        <item>I patiently allow my body to heal and transform with easy.</item>
+        <item>I deserve someone who adores me just as I am.</item>
+        <item>No one is \'out of my league\'. I am a catch.</item>
+        <item>I will respect my body and listen to its needs.</item>
+        <item>I accept myself and my appearance.</item>
+        <item>People find me attractive.</item>
+        <item>I am attractive and desirable.</item>
+        <item>I love the way I look.</item>
+        <item>Every day I am learning to love myself more and more.</item>
+        <item>I aim for progress, not for perfection.</item>
+        <item>No one in the world looks just like me and this makes me unique.</item>
+        <item>I refuse to let my mind bully my body.</item>
+        <item>I do not need to compare my looks to others because I am beautiful the way I am.</item>
+        <item>I do not need validation and approval to feel beautiful.</item>
+        <item>I work out because I love my body, not because I hate it.</item>
+    </string-array>
+    <string-array name="productivity_affirmations">
+        <item>I can use my failures as a stepping stone.</item>
+        <item>I have confidence in my skills.</item>
+        <item>I am not afraid to be wrong.</item>
+        <item>Success will be my driving force.</item>
+        <item>The success of others will not make me jealous. My time will come.</item>
+        <item>Even if I fail, I will learn and move forward.</item>
+        <item>I am proud of myself and all that I have accomplished.</item>
+        <item>There is no wrong decision. Every mistake is a learning point.</item>
+        <item>I will take action and get things accomplished.</item>
+        <item>My goals are simple and uncomplicated.</item>
+        <item>Every day I am getting closer to my goal.</item>
+        <item>I set clear goals and work to complete them every day.</item>
+        <item>I am focused, persistent, and will never quit.</item>
+        <item>I have a plan of action to achieve my desires.</item>
+        <item>My priorities are clear. I work to finish the most important tasks first.</item>
+        <item>I only set goals that matter.</item>
+        <item>When it is needed, I will always find a way.</item>
+        <item>I am committed to becoming the person I will become.</item>
+        <item>Success is in my future.</item>
+        <item>There are no limits to what I can achieve.</item>
+        <item>Balance is key. I will mix self-care with effort.</item>
+        <item>My progress is always moving forward.</item>
+    </string-array>
+    <string-array name="self_worth_affirmations">
+        <item>I am who I want to be.</item>
+        <item>No one has the power to make me feel inferior.</item>
+        <item>I have decided that I am good enough.</item>
+        <item>I am capable of inspiring others.</item>
+        <item>I have decided that I am good enough.</item>
+        <item>I accept myself unconditionally.</item>
+        <item>I have the power to change my story.</item>
+        <item>I have the courage to say \'no\'.</item>
+        <item>It\'s not their job to like me. It\'s mine.</item>
+        <item>I dare to be different.</item>
+        <item>I acknowledge my own self-worth.</item>
+        <item>I am enough.</item>
+        <item>I believe in the person I dream of becoming.</item>
+        <item>I matter. I am allowed to say \'no\' to others and \'yes\' to myself.</item>
+        <item>I am loved and I am wanted.</item>
+        <item>My intelligence and wisdom grows every day.</item>
+        <item>I will not apologize for being myself.</item>
+        <item>Negative self-talk has no place in my life.</item>
+        <item>I do not need to make self-deprecating jokes to fit in.</item>
+        <item>I desire to learn new things.</item>
+        <item>I am unique and a gift to the world.</item>
+    </string-array>
+    <string-array name="social_affirmations">
+        <item>I have faith in my social skills</item>
+        <item>I am confident in the presence of others.</item>
+        <item>I will speak with confidence and self-assurance.</item>
+        <item>I will say \'no\' when I do not have the time or inclination to act.</item>
+        <item>I will not take other people\'s negativity personally.</item>
+        <item>What I give is what I receive.</item>
+        <item>My opinion matters.</item>
+        <item>I treat others fairly and with love.</item>
+        <item>I am a positive influence and I surround myself with others like me.</item>
+        <item>Meeting new people enriches my life.</item>
+        <item>I am confident.</item>
+        <item>I am connected to people.</item>
+        <item>Relationships help me grow.</item>
+        <item>I have a lot to offer.</item>
+        <item>I love and accept myself. Others will follow my lead.</item>
+        <item>I can relate to others easily.</item>
+        <item>I am good at talking to people.</item>
+        <item>I am comfortable around people.</item>
+        <item>I am an interesting person.</item>
+        <item>I am a friendly person.</item>
+        <item>I have a lot to talk about and people want to hear what I have to say.</item>
+        <item>I deserve friendship.</item>
+        <item>I am comfortable talking to people I do not know.</item>
+        <item></item>
+    </string-array>
+    <string-array name="mental_health_affirmations">
+        <item>I know what I am doing. I will be okay.</item>
+        <item>I replace fearful thoughts with positive ones.</item>
+        <item>I notice that negative thinking patterns are disintegrating.</item>
+        <item>I acknowledge, welcome and boldly accept praise and compliments.</item>
+        <item>When I need help, I know to ask for it.</item>
+        <item>I deserve to ask for help.</item>
+        <item>I am enough, no proof required.</item>
+        <item>I have faith in myself and my future.</item>
+        <item>I am a good person who deserves good things.</item>
+        <item>My feelings are just as valid as anyone else\'s.</item>
+        <item>I am capable of tuning out the negative.</item>
+        <item>I approve of who I am and that is enough.</item>
+        <item>My life is very dear to me.</item>
+        <item>I deserve amazing experiences.</item>
+        <item>Being alone with myself is comfortable and peaceful.</item>
+        <item>I am loveable.</item>
+        <item>I understand myself, no one else has to.</item>
+        <item>It is okay for me to make mistakes.</item>
+        <item>It is okay not to feel okay. I will overcome this.</item>
+        <item>I do not need permission to take care of myself.</item>
+        <item>The little things in life make all the difference.</item>
+        <item>My fear diminishes as I live my life with courage.</item>
+        <item>I am strong.</item>
+        <item>Change provides me with new opportunities.</item>
+        <item>I am not my flaws.</item>
+        <item>My negative thoughts do not control me.</item>
+        <item>I am not alone in this.</item>
+        <item>I am stronger than my anxiety.</item>
+        <item>I give myself permission to slow down.</item>
+        <item>I will take the time to put myself first.</item>
+        <item>Would I expect this of anyone else?</item>
+        <item>I feel free to give myself the tender, love and care I need.</item>
+    </string-array>
+    <string-array name="notif_times_entries">
+        <item>06:00</item>
+        <item>06:30</item>
+        <item>07:00</item>
+        <item>07:30</item>
+        <item>08:00</item>
+        <item>08:30</item>
+        <item>09:00</item>
+        <item>09:30</item>
+        <item>10:00</item>
+        <item>10:30</item>
+        <item>11:00</item>
+        <item>11:30</item>
+        <item>12:00</item>
+        <item>12:30</item>
+        <item>13:00</item>
+        <item>13:30</item>
+        <item>14:00</item>
+        <item>14:30</item>
+        <item>15:00</item>
+        <item>15:30</item>
+        <item>16:00</item>
+        <item>16:30</item>
+        <item>17:00</item>
+        <item>17:30</item>
+        <item>18:00</item>
+        <item>18:30</item>
+        <item>19:00</item>
+        <item>19:30</item>
+        <item>20:00</item>
+        <item>20:30</item>
+        <item>21:00</item>
+        <item>21:30</item>
+        <item>22:00</item>
+        <item>22:30</item>
+        <item>23:00</item>
+        <item>23:30</item>
+        <item>00:00</item>
+        <item>00:30</item>
+    </string-array>
+    <string-array name="notif_times_values">
+        <item>06:00</item>
+        <item>06:30</item>
+        <item>07:00</item>
+        <item>07:30</item>
+        <item>08:00</item>
+        <item>08:30</item>
+        <item>09:00</item>
+        <item>09:30</item>
+        <item>10:00</item>
+        <item>10:30</item>
+        <item>11:00</item>
+        <item>11:30</item>
+        <item>12:00</item>
+        <item>12:30</item>
+        <item>13:00</item>
+        <item>13:30</item>
+        <item>14:00</item>
+        <item>14:30</item>
+        <item>15:00</item>
+        <item>15:30</item>
+        <item>16:00</item>
+        <item>16:30</item>
+        <item>17:00</item>
+        <item>17:30</item>
+        <item>18:00</item>
+        <item>18:30</item>
+        <item>19:00</item>
+        <item>19:30</item>
+        <item>20:00</item>
+        <item>20:30</item>
+        <item>21:00</item>
+        <item>21:30</item>
+        <item>22:00</item>
+        <item>22:30</item>
+        <item>23:00</item>
+        <item>23:30</item>
+        <item>00:00</item>
+        <item>00:30</item>
+    </string-array>
+<!--    <string-array name="aff_types">-->
+<!--        <item>Looks</item>-->
+<!--        <item>Productivity</item>-->
+<!--        <item>Self worth</item>-->
+<!--        <item>Social</item>-->
+<!--        <item>Mental health</item>-->
+<!--    </string-array>-->
+<!--    <string-array name="aff_text">-->
+<!--        <item>Looks text</item>-->
+<!--        <item>Productivity text</item>-->
+<!--        <item>Self worth text</item>-->
+<!--        <item>Social text</item>-->
+<!--        <item>Mental health text</item>-->
+<!--    </string-array>-->
+<!--    <array name="affirmations">-->
+<!--        <item>@array/aff_types</item>-->
+<!--        <item>@array/aff_text</item>-->
+<!--    </array>-->
+
+</resources>

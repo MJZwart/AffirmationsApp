@@ -1,0 +1,29 @@
+<!--
+  ~ Created by MJ Zwart on 8/26/20 6:58 PM.
+  ~ Copyright (c) 2020. All rights reserved
+  ~ Last modified 8/22/20 2:57 PM
+  -->
+
+<resources>
+    <string name="app_name">AffirmationsApp</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="menu_settings">Settings</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="notification_preferences">Notification Preferences</string>
+    <string name="username">Your name</string>
+    <string name="default_notification_time">10:00</string>
+</resources>
