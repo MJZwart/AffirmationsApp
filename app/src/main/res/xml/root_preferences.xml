@@ -8,64 +8,52 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
 
-    <PreferenceCategory app:title="Personal">
+<!--    <PreferenceCategory app:title="Personal">-->
 
-        <EditTextPreference
-            app:key="username"
-            app:title="@string/username"
-            app:useSimpleSummaryProvider="true" />
+<!--        <EditTextPreference-->
+<!--            app:key="username"-->
+<!--            app:title="@string/username"-->
+<!--            app:useSimpleSummaryProvider="true" />-->
 
-    </PreferenceCategory>
-    <PreferenceCategory android:title="Notification settings">
+<!--    </PreferenceCategory>-->
+    <PreferenceCategory android:title="@string/notification_settings">
 
         <SwitchPreferenceCompat
             app:key="notifs_on"
-            android:title="Notifications on"
+            android:title="@string/notifications_on"
             android:defaultValue="true"/>
         <DropDownPreference
             android:key="notification_time"
-            android:title="Notification time"
-            android:summary="At what time do you want your affirmation?"
+            android:title="@string/notification_time"
+            android:summary="@string/notification_time_setting"
             app:useSimpleSummaryProvider="true"
             android:entryValues="@array/notif_times_values"
             android:entries="@array/notif_times_entries"
             android:defaultValue="@string/default_notification_time"/>
-
-<!--        <CheckBoxPreference-->
-<!--            app:key="interval"-->
-<!--            android:title="Interval"-->
-<!--            android:dependency="notifs_on" />-->
     </PreferenceCategory>
-    <PreferenceCategory android:title="Which types of affirmations would you like to receive?">
 
-
+    <PreferenceCategory android:title="@string/which_types_of_affirmations"
+        android:summary="@string/no_type_selected_summary">
         <SwitchPreferenceCompat
             app:key="aff_type_looks"
-            android:title="Looks"
+            android:title="@string/looks"
             android:defaultValue="true"/>
         <SwitchPreferenceCompat
             app:key="aff_type_social"
-            android:title="Social"
+            android:title="@string/social"
             android:defaultValue="true"/>
         <SwitchPreferenceCompat
             app:key="aff_type_mental_health"
-            android:title="Mental health"
+            android:title="@string/mental_health"
             android:defaultValue="true"/>
         <SwitchPreferenceCompat
             app:key="aff_type_productivity"
-            android:title="Productivity"
+            android:title="@string/productivity"
             android:defaultValue="true"/>
         <SwitchPreferenceCompat
             app:key="aff_type_self_worth"
-            android:title="Self worth"
+            android:title="@string/self_worth"
             android:defaultValue="true"/>
-        <!--         <MultiSelectListPreference
-                    app:dependency="notifs_on"
-                    app:key="aff_types"
-                    android:entryValues="@array/affirmation_types_values"
-                    android:entries="@array/affirmation_types_entries"
-                    android:title="Affirmation types" />
-                   android:defaultValue="@array/affirmation_types_values"-->
     </PreferenceCategory>
 
 </PreferenceScreen>

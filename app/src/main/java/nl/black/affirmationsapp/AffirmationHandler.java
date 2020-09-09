@@ -28,9 +28,6 @@ public class AffirmationHandler {
     private final static String AFF_TYPE_PRODUCTIVITY = "aff_type_productivity";
     private final static String AFF_TYPE_SELF_WORTH = "aff_type_self_worth";
 
-    public AffirmationHandler(){
-    }
-
     public AffirmationHandler(Context context){
         this.sharedPreferences = PreferenceManager.getDefaultSharedPreferences(context);
         this.resources = context.getResources();

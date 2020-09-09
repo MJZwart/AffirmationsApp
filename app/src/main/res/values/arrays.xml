@@ -265,23 +265,5 @@
         <item>00:00</item>
         <item>00:30</item>
     </string-array>
-<!--    <string-array name="aff_types">-->
-<!--        <item>Looks</item>-->
-<!--        <item>Productivity</item>-->
-<!--        <item>Self worth</item>-->
-<!--        <item>Social</item>-->
-<!--        <item>Mental health</item>-->
-<!--    </string-array>-->
-<!--    <string-array name="aff_text">-->
-<!--        <item>Looks text</item>-->
-<!--        <item>Productivity text</item>-->
-<!--        <item>Self worth text</item>-->
-<!--        <item>Social text</item>-->
-<!--        <item>Mental health text</item>-->
-<!--    </string-array>-->
-<!--    <array name="affirmations">-->
-<!--        <item>@array/aff_types</item>-->
-<!--        <item>@array/aff_text</item>-->
-<!--    </array>-->
 
 </resources>

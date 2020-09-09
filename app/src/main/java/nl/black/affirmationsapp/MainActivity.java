@@ -58,8 +58,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         setUpPreferences();
-        setUpMisc();
+        //setUpMisc();
         setUpHandlers();
+        updateScheduledTime();
+        scheduleAffirmationService(getApplicationContext());
     }
 
     @Override
@@ -71,8 +73,6 @@ public class MainActivity extends AppCompatActivity {
     private void setUpHandlers() {
         notificationHandler = new NotificationHandler();
         affirmationHandler = new AffirmationHandler(this);
-        //TODO TEMP
-        scheduleAffirmationService(getApplicationContext());
     }
 
     private void setUpPreferences() {
@@ -80,15 +80,15 @@ public class MainActivity extends AppCompatActivity {
         PreferenceManager.setDefaultValues(this, R.xml.root_preferences, false);
     }
 
-    private void setUpMisc(){
-        TextView textViewUsername = (TextView) findViewById(R.id.usernameShow);
-        String username = sharedPreferences.getString("username", null);
-        if (username == null) {
-            textViewUsername.setText("Hello");
-        } else {
-            textViewUsername.setText("Hello " + username);
-        }
-    }
+//    private void setUpMisc(){
+//        TextView textViewUsername = (TextView) findViewById(R.id.usernameShow);
+//        String username = sharedPreferences.getString("username", null);
+//        if (username == null) {
+//            textViewUsername.setText("Hello");
+//        } else {
+//            textViewUsername.setText("Hello " + username);
+//        }
+//    }
 
     //Homepage button to go to settings
     public void goToSettings(View view){
@@ -115,9 +115,11 @@ public class MainActivity extends AppCompatActivity {
         TextView scheduledTimeText = (TextView) findViewById(R.id.scheduledTime);
         if(sharedPreferences.getBoolean(NOTIFS_ON, true)) {
             Date time = new Date(extractPreferredTime(this));
-            scheduledTimeText.setText("Next notification at: " + time);
+            String timeText = getString(R.string.next_notification_at) + time;
+            scheduledTimeText.setText(timeText);
         } else if (!sharedPreferences.getBoolean(NOTIFS_ON, true)){
-            scheduledTimeText.setText("Notifications turned off. Go to settings to turn them on.");
+            String timeTextTurnedOff = getString(R.string.notifications_turned_off_go_to_settings);
+            scheduledTimeText.setText(timeTextTurnedOff);
         }
     }
 

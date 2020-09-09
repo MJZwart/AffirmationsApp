@@ -16,10 +16,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-<!--        <activity-->
-<!--            android:name=".ListActivity"-->
-<!--            android:label="List"-->
-<!--            android:parentActivityName=".MainActivity" />-->
         <activity
             android:name=".SettingsActivity"
             android:label="@string/title_activity_settings"
@@ -31,7 +27,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-<!--        TODO change name?-->
         <receiver android:name=".notification.TimerBroadcastReceiver">
             <intent-filter>
                 <action android:name="nl.black.affirmationsapp.notification.TimerBroadcastReceiver.ACTION_TIMER" />
