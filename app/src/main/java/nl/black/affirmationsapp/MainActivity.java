@@ -96,6 +96,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void goToAbout(View view){
+        Intent intent = new Intent(this, AboutActivity.class);
+        startActivity(intent);
+    }
+
     //Button to send random affirmation
     public void sendRandomAffirmation(View view) {
         String affirmation = affirmationHandler.getRandomAffirmation();
@@ -115,7 +120,8 @@ public class MainActivity extends AppCompatActivity {
         TextView scheduledTimeText = (TextView) findViewById(R.id.scheduledTime);
         if(sharedPreferences.getBoolean(NOTIFS_ON, true)) {
             Date time = new Date(extractPreferredTime(this));
-            String timeText = getString(R.string.next_notification_at) + time;
+            String timeAsString = time.toString().substring(0, 20);
+            String timeText = getString(R.string.next_notification_at) + timeAsString;
             scheduledTimeText.setText(timeText);
         } else if (!sharedPreferences.getBoolean(NOTIFS_ON, true)){
             String timeTextTurnedOff = getString(R.string.notifications_turned_off_go_to_settings);

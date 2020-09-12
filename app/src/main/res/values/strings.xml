@@ -40,6 +40,11 @@
     <string name="self_worth">Self worth</string>
     <string name="notification_time">Notification time</string>
     <string name="notification_settings">Notification settings</string>
-    <string name="next_notification_at">\"Next notification at: \"</string>
+    <string name="next_notification_at">Next notification at: </string>
     <string name="notifications_turned_off_go_to_settings">Notifications turned off. Go to settings to turn them on.</string>
+    <string name="about_this_app">About this app</string>
+
+    <string name="aboutTextTitle">About Daily Affirmations</string>
+    <string name="aboutTextSummary">TODO how to use this app. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at leo vehicula, aliquet magna a, vehicula odio. Suspendisse maximus sodales semper. Pellentesque pharetra a nisl eget tristique. Etiam mauris est, hendrerit quis porttitor non, pulvinar eget arcu. Nunc quis fringilla elit. Nullam elementum rutrum magna, vel dapibus eros tempus nec. Vivamus quis convallis ipsum. Sed in ante cursus, rhoncus leo eu, ullamcorper tortor.</string>
+
 </resources>
