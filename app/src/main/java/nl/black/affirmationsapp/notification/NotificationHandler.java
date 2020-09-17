@@ -1,7 +1,7 @@
 /*
- * Created by MJ Zwart on 8/26/20 6:58 PM.
+ * Created by MJ Zwart on 9/17/20 2:46 PM.
  * Copyright (c) 2020. All rights reserved
- * Last modified 8/21/20 7:25 PM
+ * Last modified 9/17/20 2:41 PM
  */
 
 package nl.black.affirmationsapp.notification;
@@ -9,7 +9,9 @@ package nl.black.affirmationsapp.notification;
 import android.app.Notification;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
+import android.app.PendingIntent;
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Color;
 import android.media.AudioAttributes;
 import android.media.RingtoneManager;
@@ -47,16 +49,28 @@ public class NotificationHandler {
             notificationManager.createNotificationChannel(channel);
         }
 
+//        Intent goToAppIntent = new Intent();
+//        goToAppIntent.setClassName(context, "MainActivity.class");
+//        goToAppIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+//        //goToAppIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+//        PendingIntent contentIntent = PendingIntent.getActivity(
+//                context,
+//                0,
+//                goToAppIntent,
+//                PendingIntent.FLAG_UPDATE_CURRENT);
+
         NotificationCompat.Builder notificationBuilder = new
                 NotificationCompat.Builder(context, CHANNEL_ID)
-                .setSmallIcon(R.mipmap.ic_launcher)
+                .setSmallIcon(R.mipmap.daily_affirmations_icon)
                 .setContentTitle(context.getResources().getString(R.string.app_name))
                 .setContentText(affirmation)
                 .setSound(notificationSoundUri)
                 .setLights(Color.BLUE, 500, 500)
                 .setVibrate(new long[]{250,500,250,500,250,500})
                 .setDefaults(Notification.DEFAULT_LIGHTS |
-                        Notification.DEFAULT_VIBRATE);
+                        Notification.DEFAULT_VIBRATE)
+//                .setContentIntent(contentIntent)
+                ;
         NotificationManagerCompat notificationManagerCompat = NotificationManagerCompat.from(context);
         notificationManagerCompat.notify(0, notificationBuilder.build());
         System.out.println("End of sending affirmation notification");

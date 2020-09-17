@@ -45,6 +45,10 @@
     <string name="about_this_app">About this app</string>
 
     <string name="aboutTextTitle">About Daily Affirmations</string>
-    <string name="aboutTextSummary">TODO how to use this app. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at leo vehicula, aliquet magna a, vehicula odio. Suspendisse maximus sodales semper. Pellentesque pharetra a nisl eget tristique. Etiam mauris est, hendrerit quis porttitor non, pulvinar eget arcu. Nunc quis fringilla elit. Nullam elementum rutrum magna, vel dapibus eros tempus nec. Vivamus quis convallis ipsum. Sed in ante cursus, rhoncus leo eu, ullamcorper tortor.</string>
-
+    <string name="aboutTextSummary">
+        Coming soon.</string>
+<!--        TODO how to use this app. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at leo vehicula, aliquet magna a, vehicula odio. Suspendisse maximus sodales semper. Pellentesque pharetra a nisl eget tristique. Etiam mauris est, hendrerit quis porttitor non, pulvinar eget arcu. Nunc quis fringilla elit. Nullam elementum rutrum magna, vel dapibus eros tempus nec. Vivamus quis convallis ipsum. Sed in ante cursus, rhoncus leo eu, ullamcorper tortor.</string>-->
+    <string name="copyright_info">Copyright MJ Black Dev, 2020. All rights reserved.</string>
+    <string name="creator_info">Created by Melanie Zwart. Icon by Jade.
+    </string>
 </resources>
