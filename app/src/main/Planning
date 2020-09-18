@@ -1,0 +1,15 @@
+TODO
+- Option to enlarge the notification to read larger sentences
+
+Commit
+
+- Button on the notification to cycle through notifications. Click next, and possibly previous
+    - This may require the used affirmation to be saved locally.
+- Click on the notification to go to the app
+    - Click on it to go to a page/activity which shows the affirmation larger.
+
+Commit
+
+- Option to create multiple alarms per day
+    - Rather than the current repeat alarms, maybe check the *next* notification and set it then.
+- Option to pick the day(s) on which you receive notifications.

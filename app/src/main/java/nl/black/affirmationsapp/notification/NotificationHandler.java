@@ -69,6 +69,7 @@ public class NotificationHandler {
                 .setVibrate(new long[]{250,500,250,500,250,500})
                 .setDefaults(Notification.DEFAULT_LIGHTS |
                         Notification.DEFAULT_VIBRATE)
+                .setStyle(new NotificationCompat.BigTextStyle())
 //                .setContentIntent(contentIntent)
                 ;
         NotificationManagerCompat notificationManagerCompat = NotificationManagerCompat.from(context);
